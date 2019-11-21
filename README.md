@@ -13,6 +13,6 @@ Tedy:
 * vždy to dopadne stejně
 * nikdy se to nerozbije.
 
-Takže? Třeba vědro? Ale věděli jste, že tak dlouho se chodí se džbánem pro
+Takže? Třeba **džbán**? Ale věděli jste, že tak dlouho se chodí se džbánem pro
 vodu, až se ucho utrhne?
 

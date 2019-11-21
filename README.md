@@ -11,7 +11,8 @@ Tedy:
 
 * věc lze použít jediným způsobem
 * vždy to dopadne stejně
-* nikdy se to nerozbije.
+* nikdy se to nerozbije, nebo alespoň ne tak, aby nebylo jasné, že se to
+  rozbilo a proč.
 
 Takže? Třeba **džbán**? Ale věděli jste, že tak dlouho se chodí se džbánem pro
 vodu, až se ucho utrhne?

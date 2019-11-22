@@ -43,4 +43,59 @@ Další údaje naleznete na https://trends.google.com.
 * rada od přátel
 * a mnoho dalších
 
+## Jakou dokumentaci si můžeme vybrat?
 
+Existují čtyři základní přístupy k dokumentaci:
+
+* konceptuální
+
+* procedurální
+
+* referenční
+
+* výukový
+
+### Konceptuální dokumentace
+
+Konceptuální dokumentace se snaží vysvětlit uživatelům danou problematiku (koncept)  tak, aby tito pochopili princip fungování a potřebné souvislosti. 
+
+Například:
+
+* jak funguje volební systém České republiky
+
+* jak se přenáší terestriální signál
+
+* jak funguje RAID
+
+* jak pracuje rekuperace v elektromobilu
+
+### Procedurální dokumentace
+
+Procedurální dokumentace poskytuje jasný návod, většinou rozdělený na jednotlivé kroky (procedura), ke splnění uživatelského záměru (user case). Mimo jiné:
+
+* jak nainstalovat aplikaci **X**.
+
+* jak si uvařit vlastní pivo
+
+* jak vytvořit nového uživatele
+
+* jak si vyjednat slevu u mobilního operátora
+
+### Referenční dokumentace
+
+Referenční dokumentace nabízí ucelený přehled (referenci) vlastností, voleb, nastavení a způsobů použití, aby si uživatel mohl sám objevit vlastní přístup a sestavit si své vlastní postupy:
+
+* manuálové stránky v Linuxu
+
+* přehled typů žárovek pro osvětlení vozidla
+
+* přehled ingrediencí potřebných pro upečení
+  dortu
+
+* přehled voleb příkazu `dnf` ve Fedoře.
+
+### Výuková dokumentace
+
+Výuková dokumentace, tzv. **tutoriály**, je spojení konceptuální a procedurální stránky dokumentace, takže výsledkem není jenom splněný uživatelský záměr, ale také částečné pochopení problematiky a kontextu.
+
+Je velmi důležité, abychom z konceptuálního hlediska vysvětlili pouze tolik, kolik je **nezbytně nutné**. Chceme-li pomocí tutoriálů vysvětlit širší problematiku, pak volíme několik na sebe navazujících.

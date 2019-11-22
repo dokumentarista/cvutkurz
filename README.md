@@ -331,7 +331,6 @@ Každý z nich je zodpovědný za jinou oblast vývoje dokumentace.
 
 Tohle je poměrně moderní, ale už dost rozšířený, způsob, kdy s dokumentací zacházíme jako s kódem a používáme:
 
-
 1. popisovací jazyk (Markdown, AsciiDoc, LaTeX, Docbook)
 
 2. sdílený repozitář (Gitlab, Github)
@@ -383,6 +382,40 @@ Tato prezentace je také na Githubu jako repozitář `cvutkurz` a je mimojiné d
 
 ---
 
+### Hustě nahuštěná pneumatika
 
+Správné použití vzduchového kompresoru:
 
+1. Odpojte hadici od kola a smotejte ji ke kompresoru.
 
+2. Našroubujte kryt ventilku.
+
+3. Stisknutím a přidržením tlačítka **Plus** zvyšte tlak na požadovanou hodnotu, nebo jej pomocí tlačítka **Minus** snižte.
+
+4. Zajeďte s autem co nejblíže kompresoru, abyste tlakovou hadici dosáhli na každé kolo.
+
+5. Z manometru na kompresoru odečtěte současný tlak v pneumatice.
+
+6. Rozmotejte tlakovou hadici a připojte ji na ventilek.
+
+7. Odšroubujte kryt ventilku.
+
+---
+
+## Pište dokumentaci pro Fedoru
+
+Fedora je komunitní distribuce Linuxu, na jejímž vývoji se může podílet kdokoliv. Tak i na její dokumentaci.
+
+* repozitáře na pagure.io (Git)
+
+* využívá projekt Antora (antora.org)
+
+* vydána na docs.fedoraproject.org
+
+Přispět můžete po přečtení návodu https://docs.fedoraproject.org/en-US/fedora-docs/contributing/
+
+---
+
+## Otázky a odpovědi
+
+Proč, když líná pes, tak mu padají chlupy, ale když **líná huba**, tak je **holé neštěstí** a ne ta huba, která líná?

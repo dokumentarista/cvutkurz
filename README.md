@@ -1,8 +1,16 @@
 # Jak na to napsat jak na to?
 
-## Proč psát dokumentaci
+## aneb Jak přežít dobu dokumentační
 
-### Žádná dokumentace, dobrá dokumentace?
+### Lukáš Růžička
+lruzicka@redhat.com
+
+
+listopad 2019
+
+---
+
+## Žádná dokumentace, dobrá dokumentace?
 
 Dokumentace není potřebná, když je všem hned jasné, jak daný produkt funguje,
 co je s ním možné provádět, a co si počít, když zase tak dobře nefunguje.
@@ -19,7 +27,7 @@ vodu, až se ucho utrhne?
 
 ---
 
-### 21. století nazýváme stoletím dokumentace a informací
+## 21. století nazýváme stoletím dokumentace
 
 Nevěříte? Zrovna, když reviduju tuto prezentaci, na Googlu probíhá téměř 78000 hledání za vteřinu. Proč?
 
@@ -35,7 +43,7 @@ Další údaje naleznete na https://trends.google.com.
 
 ---
 
-### Dokumentace je prostě všude ...
+## Dokumentace je prostě všude ...
 
 ... protože život je zkrátka příliš složitý.
 
@@ -49,7 +57,11 @@ Další údaje naleznete na https://trends.google.com.
 
 ---
 
-## Jakou dokumentaci si můžeme vybrat?
+## Dokumentace v teorii
+
+---
+
+## Jakým způsobem můžeme dokumentovat?
 
 Existují čtyři základní přístupy k dokumentaci:
 
@@ -63,7 +75,7 @@ Existují čtyři základní přístupy k dokumentaci:
 
 ---
 
-### Konceptuální dokumentace
+## Konceptuální dokumentace
 
 Konceptuální dokumentace se snaží vysvětlit uživatelům danou problematiku (koncept)  tak, aby tito pochopili princip fungování a potřebné souvislosti. 
 
@@ -79,7 +91,7 @@ Například:
 
 ---
 
-### Procedurální dokumentace
+## Procedurální dokumentace
 
 Procedurální dokumentace poskytuje jasný návod, většinou rozdělený na jednotlivé kroky (procedura), ke splnění uživatelského záměru (user case). Mimo jiné:
 
@@ -93,7 +105,7 @@ Procedurální dokumentace poskytuje jasný návod, většinou rozdělený na je
 
 ---
 
-### Referenční dokumentace
+## Referenční dokumentace
 
 Referenční dokumentace nabízí ucelený přehled (referenci) vlastností, voleb, nastavení a způsobů použití, aby si uživatel mohl sám objevit vlastní přístup a sestavit si své vlastní postupy:
 
@@ -108,7 +120,7 @@ Referenční dokumentace nabízí ucelený přehled (referenci) vlastností, vol
 
 ---
 
-### Výuková dokumentace
+## Výuková dokumentace
 
 Výuková dokumentace, tzv. **tutoriály**, je spojení konceptuální a procedurální stránky dokumentace, takže výsledkem není jenom splněný uživatelský záměr, ale také částečné pochopení problematiky a kontextu.
 
@@ -116,9 +128,7 @@ Je velmi důležité, abychom z konceptuálního hlediska vysvětlili pouze toli
 
 ---
 
-## Styl dokumentace
-
-### Správně
+## Správný styl dokumentace
 
 * jednoznačné výrazy
 
@@ -134,7 +144,7 @@ Je velmi důležité, abychom z konceptuálního hlediska vysvětlili pouze toli
 
 ---
 
-### Nesprávně
+## Nesprávný styl dokumentace
 
 * estetické formy jazyka (metafory, přirovnání, nadsázka)
 
@@ -150,7 +160,7 @@ Je velmi důležité, abychom z konceptuálního hlediska vysvětlili pouze toli
 
 ---
 
-### Porušování pravidel
+## Porušování pravidel
 
 Někdy můžeme uznat za vhodné pravidla porušit a získáme tak jinou formu dokumentace, jež je 
 
@@ -184,7 +194,7 @@ Dále se budeme zabývat pouze **psanou** dokumentací.
 
 ---
 
-### Formáty
+## Formáty
 
 Pokud se v souvislosti s dokumentací mluví o formátech, pak máme na mysli v podstatě dva typy a to:
 
@@ -196,7 +206,7 @@ Některé souborové formáty mohou být jak zdrojové, tak cílové (HTML).
 
 ---
 
-### Některé zdrojové formáty
+## Některé zdrojové formáty
 
 * čistý text
 
@@ -208,7 +218,7 @@ Některé souborové formáty mohou být jak zdrojové, tak cílové (HTML).
 
 ---
 
-### Některé cílové formáty
+## Některé cílové formáty
 
 * HTML (web)
 
@@ -218,7 +228,7 @@ Některé souborové formáty mohou být jak zdrojové, tak cílové (HTML).
 
 ---
 
-### Nejčastěji používané formáty
+## Nejčastěji používané formáty
 
 * Markdown (Github)
 
@@ -234,7 +244,7 @@ Některé souborové formáty mohou být jak zdrojové, tak cílové (HTML).
 
 ---
 
-### Výběr vhodného formátu
+## Výběr vhodného formátu
 
 Před výběrem formátu pořádně zamyslet, co od něj přesně chceme, neboť špatný výběr formátu může celou tvorbu dokumentace zkomplikovat.
 Ptejme se na:
@@ -257,7 +267,9 @@ Obecně platí, že čím složitější formát, tím více možností použit�
 
 ## Dokumentace v praxi
 
-### Postup při vytváření dokumentace
+---
+
+## Postup při vytváření dokumentace
 
 Dokumentace obvykle vzniká následujícím postupem:
 
@@ -279,7 +291,7 @@ Dokumentace obvykle vzniká následujícím postupem:
 
 ---
 
-### Dokumentace v Red Hatu z hlediska organizace
+## Dokumentace v Red Hatu z hlediska organizace
 
 Red Hat v současné době udržuje mnoho dokumentačních projektů. Organizační struktura dokumentačního oddělení má několik **pilířů**:
 
@@ -297,7 +309,7 @@ Každý z nich je zodpovědný za jinou oblast vývoje dokumentace.
 
 ---
 
-### Dokumentace v Red Had z hlediska použitých metod
+## Dokumentace v Red Had z hlediska použitých metod
 
 * Většina dokumentačních projektů v Red Hatu používá **AsciiDoc** jako hlavní syntaxi pro vytváření zdrojových textů.
 
@@ -307,7 +319,7 @@ Každý z nich je zodpovědný za jinou oblast vývoje dokumentace.
 
 ---
 
-### Modulární výhody
+## Modulární výhody
 
 * výstup lze poskládat pro každého jinak (customizace)
 
@@ -315,7 +327,9 @@ Každý z nich je zodpovědný za jinou oblast vývoje dokumentace.
 
 * lepší orientace v textu
 
-#### Bohužel se v praxi ukazuje, že
+---
+
+## Šedivá je teorie a zelený je strom života
 
 * naprogramovat mechanismus pro customizaci není jednoduché
 
@@ -345,6 +359,8 @@ Tohle je poměrně moderní, ale už dost rozšířený, způsob, kdy s dokument
 
 ## Praktická ukázka Docs-As-Code
 
+---
+
 ### Využití Githubu
 
 GitHub (github.com) dokáže překládat  soubor `README.md` příslušného projektu a ten zobrazovat v HTML formátu na adrese `uzivatel.github.io/repositar`.
@@ -353,7 +369,7 @@ Tato prezentace je také na Githubu jako repozitář `cvutkurz` a je mimojiné d
 
 ---
 
-### Praktická ukázka Docs-As-Code
+## Opravujeme a vytváříme
 
 1. Klonování Git repozitáře
    `git clone https://github.com/dokumentarista/cvutkurz.git`
@@ -368,21 +384,30 @@ Tato prezentace je také na Githubu jako repozitář `cvutkurz` a je mimojiné d
    `git commit -m "Provedene zmeny"`
 
 5. Nahrát změny na server.
-   `git push --set-upstream origin novy_slide`
+   `git push [--set-upstream origin novy_slide]`
 
 6. Pokračovat ve změnách a opakovat kroky 4 a 5 dle potřeby.
 
-7. Nakonec zapsání změn do `master` větve.
+---
+
+## Správa verzí
+
+1. Verze se uchovávají ve **větvích** (branch)
+
+2. V nich probíhá vývoj.
+
+3. Posléze se změny převedou do `master` větve (merge).
    `git merge novy_slide` 
 
 8. Nahrání upraveného *masteru* na server
    `git push --force`
 
-9. Za chvilku se změny projeví (tzv. *continuous integration*)
+9. Za chvilku se změny projeví (tzv. *continuous integration*) a v hlavní větvi se objeví obsah vývojové větve.
+
 
 ---
 
-### Hustě nahuštěná pneumatika
+## Hustě nahuštěná pneumatika
 
 Správné použití vzduchového kompresoru:
 

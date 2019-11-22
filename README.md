@@ -329,6 +329,60 @@ Každý z nich je zodpovědný za jinou oblast vývoje dokumentace.
 
 ## Docs-As-Code
 
+Tohle je poměrně moderní, ale už dost rozšířený, způsob, kdy s dokumentací zacházíme jako s kódem a používáme:
+
+
+1. popisovací jazyk (Markdown, AsciiDoc, LaTeX, Docbook)
+
+2. sdílený repozitář (Gitlab, Github)
+
+3. správu verzí (Git, SVN)
+
+4. kontinuální integraci (CI)
+
+5. automatické publikování (web)
+
+---
+
+## Praktická ukázka Docs-As-Code
+
+### Využití Githubu
+
+GitHub (github.com) dokáže překládat  soubor `README.md` příslušného projektu a ten zobrazovat v HTML formátu na adrese `uzivatel.github.io/repositar`.
+
+Tato prezentace je také na Githubu jako repozitář `cvutkurz` a je mimojiné dostupná přímo na http://dokumentarista.github.io/cvutkurz.
+
+---
+
+### Praktická ukázka Docs-As-Code
+
+1. Klonování Git repozitáře
+   `git clone https://github.com/dokumentarista/cvutkurz.git`
+
+2. Vytvoření lokální větve pro vývoj
+   `git checkout -b novy_slide`
+
+3. Změny v nové větvi
+
+4. Přidat změny do gitu
+   `git add .`
+   `git commit -m "Provedene zmeny"`
+
+5. Nahrát změny na server.
+   `git push --set-upstream origin novy_slide`
+
+6. Pokračovat ve změnách a opakovat kroky 4 a 5 dle potřeby.
+
+7. Nakonec zapsání změn do `master` větve.
+   `git merge novy_slide` 
+
+8. Nahrání upraveného *masteru* na server
+   `git push --force`
+
+9. Za chvilku se změny projeví (tzv. *continuous integration*)
+
+---
+
 
 
 

@@ -6,7 +6,11 @@
 lruzicka@redhat.com
 
 
-listopad 2019
+duben 2020
+
+---
+
+## Úvodní slovo
 
 ---
 
@@ -29,23 +33,90 @@ vodu, až se ucho utrhne?
 
 ## 21. století nazýváme stoletím dokumentace
 
-Nevěříte? Zrovna, když reviduju tuto prezentaci, na Googlu probíhá téměř 78000 hledání za vteřinu. Proč?
+Nevěříte? 
 
-Jak si v Google statistice stojí "How to" a "jak na to"?
+Za rok 2019 bylo průměrně cca 70000 hledání za vteřinu. **Proč to tak je?**
 
-* **how to install linux** chtějí vědět v Barmě (cca 80)  
-* **how to fry eggs** zajímá občany Jihoafrické republiky (cca 50)
-* **how to change oil** hledají v USA (cca 75)
-* **how to make tea** je populární na Trinidadu (cca 75)
-* **how to write documentation** vládne v Indii (cca 50)
 
-Další údaje naleznete na https://trends.google.com.
+Jaké informace ale vlastně lidé na internetu nejvíce hledají? 
+
+Podle https://trends.google.com hledali Češi a Češky nejvíce následující informace:
+
+---
+
+## Top 10 kategorie "Jak" za rok 2019 v Česku
+
+1. Jak se plete pomlázka
+2. Jak zamrazit houby
+3. Jak vyndat klíště
+4. Jak ochladit byt
+5. Jak vyfouknout vejce
+6. Jak na octomilku
+7. Jak vyvolat menstruaci
+8. Jak vyplnit daňové přiznání
+9. Jak vydělat peníze
+10. Jak začít běhat
+
+---
+
+## Top 10 kategorie "Jak" za rok 2018 v Česku
+
+1. Jak naladit
+2. Jak vyrobit sliz
+3. Jak vyplnit daňové přiznání
+4. Jak volit prezidenta
+5. Jak zhubnout břicho
+6. Jak vyndat klíště
+7. Jak vyplnit přihlášku na střední školu
+8. Jak volili vaši sousedé
+9. Jak uvázat kravatu
+10. Jak zhubnout stehna
+
+---
+
+## Top 10 kategorie "Jak" za rok 2017 v Česku
+
+1. Jak uplést pomlázku
+2. Jak zamrazit houby
+3. Jak volit
+4. Jak upéct husu
+5. Jak vyplnit daňové přiznání
+6. Jak vyfouknout vejce
+7. Jak vyrobit máslo
+8. Jak stahovat z YouTube
+9. Jak naladit Prima Love
+10. Jak zhubnout stehna
+
+---
+
+## Dá se z toho něco usuzovat?
+
+Je možné, že lidé s přístupem na internet
+
+* raději hledají na internetu než ve svém okolí?
+* spoléhají se, že tam tyto informace najdou?
+* věří, že jsou internetové informace správné?
+* neradi si pamatují?
 
 ---
 
 ## Dokumentace je prostě všude ...
 
 ... protože život je zkrátka příliš složitý.
+
+---
+
+## Co běžně vnímáme jako dokumentaci?
+
+* Návody k použití
+* Popis vlastností
+* Seznam částí
+
+A takovou dokumentací se budeme zabývat.
+
+---
+
+## Co všechno však lze vnímat jako dokumentaci?
 
 * YouTube
 * diskusní servery a blogy
@@ -81,13 +152,13 @@ Konceptuální dokumentace se snaží vysvětlit uživatelům danou problematiku
 
 Například:
 
-* jak funguje volební systém České republiky
+* na jakém principu funguje Wankelův motor
 
-* jak se přenáší terestriální signál
-
-* jak funguje RAID
+* jaký rozdíl je mezi vektorovou a rastrovou grafikou
 
 * jak pracuje rekuperace v elektromobilu
+
+* jak zhubnout stehna
 
 ---
 
@@ -97,11 +168,11 @@ Procedurální dokumentace poskytuje jasný návod, většinou rozdělený na je
 
 * jak nainstalovat aplikaci **X**.
 
-* jak si uvařit vlastní pivo
-
-* jak vytvořit nového uživatele
+* jak vytvořit nového uživatele v systému Fedora
 
 * jak si vyjednat slevu u mobilního operátora
+
+* jak upéct husu
 
 ---
 
@@ -113,10 +184,9 @@ Referenční dokumentace nabízí ucelený přehled (referenci) vlastností, vol
 
 * přehled typů žárovek pro osvětlení vozidla
 
-* přehled ingrediencí potřebných pro upečení
-  dortu
+* přehled voleb příkazu `dnf` ve Fedoře
 
-* přehled voleb příkazu `dnf` ve Fedoře.
+* vysvětlení významu jednotlivých polí daňového přiznání
 
 ---
 
@@ -191,6 +261,34 @@ Dokumentaci můžeme psát ve spoustě různých formátů. Záleží, co přesn
 * dostupnosti metadat textu (sémantický markup)
 
 Dále se budeme zabývat pouze **psanou** dokumentací.
+
+---
+
+## Co to je *sémantický* markup?
+
+To je popisování textu tak, abychom kromě formálních znaků zapsali také významové a funkční souvislosti.
+
+---
+
+## Několik příkladů formálního markupu:
+
+Například:
+
+* `** tučné **` (Markdown)
+* `<b>tučné</b>` (HTML)
+* `\textbf{tučné}` (LaTeX)
+* `* tučné *` (Asciidoc)
+
+---
+
+## Několik příkladů sémantického markupu:
+
+Například:
+
+* `<b class="command">rm -rf *</b>` (HTML)
+* `<command>rm -rf *</command>` (DocBook)
+* `'command':*ls -a *` (Asciidoc)
+* `\begin{enumerate}` (LaTeX)
 
 ---
 
@@ -317,6 +415,8 @@ Každý z nich je zodpovědný za jinou oblast vývoje dokumentace.
 
 * Mnoho projektů používá tzv. **modulární přístup** a upřednostňuje jej před klasickým přístupem.
 
+* Systém **Docs-as-code**
+
 ---
 
 ## Modulární výhody
@@ -331,13 +431,15 @@ Každý z nich je zodpovědný za jinou oblast vývoje dokumentace.
 
 ## Šedivá je teorie a zelený je strom života
 
-* naprogramovat mechanismus pro customizaci není jednoduché
+* naprogramovat mechanismus pro customizaci není jednoduché a v současné době se žádný takový nepoužívá
 
-* použít modul na více různých místech je složité až nemožné bez řádných metadat
+* použít modul na více různých místech je obtížné až nemožné bez řádných metadat, avšak psaní metadat velmi prodlužuje dobu vývoje modulu
 
-* bez utilit, které dokážou mezi moduly hledat, je ruční hledání zdlouhavé
+* bez systémů, které dokážou mezi moduly hledat, je ruční hledání zdlouhavé
 
-* lidské ego se nerado dělí
+* modularizace dělaná ručně není škálovatelná
+
+* lidské ego se nerado dělí --- je v povaze člověka zkoušet *vynalézat neustále kolo* s myšlenkou, že to *moje* bude teprve to pravé.
 
 ---
 

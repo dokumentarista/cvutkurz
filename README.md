@@ -513,19 +513,19 @@ Tato prezentace je také na Githubu jako repozitář `cvutkurz` a je mimojiné d
 
 Správné použití vzduchového kompresoru:
 
-* Odpojte hadici od kola a smotejte ji ke kompresoru.
+1. Odpojte hadici od kola a smotejte ji ke kompresoru.
 
-* Našroubujte kryt ventilku.
+1. Našroubujte kryt ventilku.
 
-* Stisknutím a přidržením tlačítka **Plus** zvyšte tlak na požadovanou hodnotu, nebo jej pomocí tlačítka **Minus** snižte.
+1. Stisknutím a přidržením tlačítka **Plus** zvyšte tlak na požadovanou hodnotu, nebo jej pomocí tlačítka **Minus** snižte.
 
-* Zajeďte s autem co nejblíže kompresoru, abyste tlakovou hadici dosáhli na každé kolo.
+1. Zajeďte s autem co nejblíže kompresoru, abyste tlakovou hadici dosáhli na každé kolo.
 
-* Z manometru na kompresoru odečtěte současný tlak v pneumatice.
+1. Z manometru na kompresoru odečtěte současný tlak v pneumatice.
 
-* Rozmotejte tlakovou hadici a připojte ji na ventilek.
+1. Rozmotejte tlakovou hadici a připojte ji na ventilek.
 
-* Odšroubujte kryt ventilku.
+1. Odšroubujte kryt ventilku.
 
 ---
 
